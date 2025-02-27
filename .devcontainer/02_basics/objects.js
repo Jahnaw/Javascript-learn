@@ -18,6 +18,14 @@ jsUser.greeting = function(){
 jsUser.greeting2 = function(){
     console.log(`Hello JS User, ${this.name}`);
 }
-console.log(jsUser.greeting());
+// console.log(jsUser.greeting());
 
-console.log(jsUser.greeting2());
+// console.log(jsUser.greeting2());
+
+const tinderUser = {};
+
+tinderUser.name = "Jahnawi";
+tinderUser.id = "123abc";
+tinderUser.isLoggedIn = false;
+
+// console.log(tinderUser);
